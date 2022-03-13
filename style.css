@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+.m {
+color: white;
+margin-top: 25px;
+margin
+}
+.c {
+color: white;
+margin-top: 50px;
+margin-left: 20px;
+margin-right: 20px;
+}
+.r {
+color: white;
+margin-top: 25px;
+margin-left: 20;
+margin-right: 20px;
+}
+@media (max-width:1200px){
+    .container{
+        max-width: 970px;
+    }
+}
+@media (max-width:992px){
+    .container{
+        max-width: 750px;
+    }
+}
+@media (max-width:767px){
+    .container{
+        max-width: none;
+    }
+}
